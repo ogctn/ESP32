@@ -4,7 +4,7 @@ import numpy as np
 import paho.mqtt.client as mqtt
 
 
-MQTT_BROKER = '172.16.22.232' #'192.168.197.80'
+MQTT_BROKER = '172.16.22.232' #''
 MQTT_TOPIC = "esp0/img/"
 
 frame = np.zeros((600, 800, 3), np.uint8)       # Height:240, Width:320 (QVGA)
